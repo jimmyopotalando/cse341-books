@@ -1,5 +1,7 @@
 // src/models/books.js
-import { getDb } from '../db/connect.js';
+import { getDb } from '../../db/connection.js';
+
+
 
 const getAllBooks = async () => {
   const db = getDb();
