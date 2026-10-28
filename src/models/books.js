@@ -1,0 +1,18 @@
+// src/models/books.js
+import { getDb } from '../../db/connection.js';
+
+const getAllBooks = async () => {
+  const db = getDb();
+  const collection = db.collection('books');
+  const books = await collection.find({}).toArray();
+  return books;
+};
+
+const getBookById = async (bookId) => {
+  const db = getDb();
+  const collection = db.collection('books');
+  const book = await collection.findOne({ id: bookId });
+  return book;
+};
+
+export { getAllBooks, getBookById };
