@@ -10,7 +10,7 @@ GitHub Issue Link: https://github.com/jimmyopotalando/cse341-books/issues/3
 Answer: The MongoDB connection issue took longer than expected because I had to configure environment variables correctly and whitelist Render’s IP addresses in MongoDB Atlas. This required extra troubleshooting and testing.
 
 4. Include a link to your walk-though video. (It must include your name, show your web service working at Render, explain the way your `Get Single Book` controller works, and discuss status codes.)
-Video link: https://youtu.be/your-video-id
+Video link: https://youtu.be/p0uT7xrtM3g
 
 5.a. Include a GitHub link to a file that shows how your app uses sensitive data, such as the MongoDB connection string.
 GitHub link: https://github.com/jimmyopotalando/cse341-books/blob/main/db/connection.js
