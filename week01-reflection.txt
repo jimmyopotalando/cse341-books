@@ -10,7 +10,7 @@ GitHub Issue Link: https://github.com/jimmyopotalando/cse341-books/issues/3
 Answer: The MongoDB connection issue took longer than expected because I had to configure environment variables correctly and whitelist Render’s IP addresses in MongoDB Atlas. This required extra troubleshooting and testing.
 
 4. Include a link to your walk-though video. (It must include your name, show your web service working at Render, explain the way your `Get Single Book` controller works, and discuss status codes.)
-Video link: https://youtu.be/your-video-id
+Video link: https://youtu.be/76A6rP_TCRE
 
 5.a. Include a GitHub link to a file that shows how your app uses sensitive data, such as the MongoDB connection string.
 GitHub link: https://github.com/jimmyopotalando/cse341-books/blob/main/db/connection.js
@@ -19,7 +19,7 @@ GitHub link: https://github.com/jimmyopotalando/cse341-books/blob/main/db/connec
 Answer: I stored sensitive data in environment variables using a `.env` file. This is important because it prevents secrets from being committed to GitHub and allows different values for local and production environments.
 
 6.a. Include a GitHub link to a file that shows one other implementation decision you made.
-GitHub link: https://github.com/jimmyopotalando/cse341-books/blob/main/server.js
+GitHub link: https://github.com/jimmyopotalando/cse341-books/blob/main/src/router.js
 
 6.b. What decision does this file show, and why did you make that choice?
 Answer: This file shows my decision to structure the app with separate routes for `/books` and `/books/:id`. I made this choice to follow RESTful design principles and keep the code modular, which makes it easier to extend later.
